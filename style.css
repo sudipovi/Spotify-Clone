@@ -1,0 +1,13 @@
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
