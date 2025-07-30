@@ -39,6 +39,7 @@ body {
   line-height: 2.5rem;
   opacity: 70%;
   padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
 }
 
 .nav-option:hover {
@@ -47,10 +48,6 @@ body {
 
 .home {
   opacity: 100%;
-}
-
-.nav-option {
-  font-size: 1.25rem;
 }
 
 .sidebar a {
@@ -62,13 +59,38 @@ body {
 /* Library */
 
 .library {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
   background-color: #121212;
   border-radius: 0.5rem;
   margin: 7px 7px;
   padding: 0.8rem 0.75rem;
+  height: 100%;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lib-option,
+.icon {
+  opacity: 0.7;
+}
+
+.lib-option:hover,
+.icon:hover {
+  opacity: 1;
+}
+
+.icon i {
+  margin-left: 1rem;
+}
+
+/* Box design */
+.box1 {
+  background-color: #3b3b3b;
+  margin-top: 3rem;
+  height: 8rem;
+  border-radius: 0.75rem;
 }
 
 /* main content */
