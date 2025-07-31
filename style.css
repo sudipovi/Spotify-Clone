@@ -166,7 +166,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1.5rem 2rem;
+ padding: 1rem 1rem;
   position: sticky;
   top: 0;
   background-color: #121212;
@@ -203,4 +203,16 @@ body {
   bottom: 0px;
   width: 100%;
   height: 72px;
+}
+
+
+/* responsive */
+
+@media(max-width:1000px){
+  .hide{
+    display: none;
+  }
+  .fa-angle-right{
+    opacity: 0;
+  }
 }
