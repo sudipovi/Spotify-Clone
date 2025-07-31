@@ -149,12 +149,51 @@ body {
   
 }
 
+.bt2:hover{
+  opacity: 0.8;
+}
+
 /* main content */
 .main-content {
   background-color: #121212;
   flex: 1;
   border-radius: 1rem;
   overflow: auto;
+
+}
+
+.sticky{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+
+}
+
+.left i{
+  margin-right: 1.5rem;
+
+}
+
+.right .exp, .ins, .us{
+  margin-left: 1.25rem;
+}
+
+.ins{
+  background-color: #121212;
+  color: white;
+  font-size: 1rem;
+}
+
+.us:hover{
+  opacity: 0.5;
+}
+
+.exp{
+  width: 10rem;
 }
 
 /* music player */
